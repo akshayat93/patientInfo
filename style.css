@@ -1,0 +1,170 @@
+
+body
+{
+	position:relative;
+	background: #ebebeb;
+	margin: 0;
+	font-family: monospace;
+}
+#admin, #user 
+{
+	cursor: pointer;
+}
+#header
+{
+	background: #67a9ad;
+	text-align: center;
+    padding: 1%;
+	color: white;
+    height: 3rem;
+	min-width:400px;
+	font-size:35px;
+	font-family: Arial, Helvetica, sans-serif;
+	-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #b0e6e1;
+}
+
+#auth
+{
+	float: right;
+	font-size: large;
+	margin-right:1%;
+}
+a:link
+{
+	color: mediumblue;
+	text-decoration: none;
+	
+}
+a:hover
+{
+	color:teal;
+}
+#container
+{
+	margin-top: 4%;
+	margin-bottom:2%;
+}
+#input_box
+{
+	max-width: 600px;
+	min-width: 400px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100%; */
+    padding-top: 1.5%;
+	padding-left: 0.5%;
+	box-shadow:9px 12px 8px 2px rgba(0,0,0,0.2);
+}
+form
+{
+	font-size: x-large;
+	color: teal;
+}
+.form
+{
+	position: relative;
+}
+input
+{
+	margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 2%;
+	width:50%;
+	margin-left:44%;
+	
+}
+label
+{
+	margin-right: 1%;
+    padding: 1%;
+    margin-bottom: 2%;
+	position: absolute;
+}
+select
+{
+	padding:0.5%;
+	margin-left:44%;
+	margin-bottom:2%;
+	width:52.5%;
+}
+textarea 
+{
+	resize: none;
+	margin-left: 44%;
+    width: 51.5%;
+}
+#submitbtn
+{
+	margin-right: 25%;
+    width: 20%;
+    float: right;
+    margin-left: 0;
+	font-size: smaller;
+    color: white;
+    background: #24c57a;
+    border: none;
+    padding: 1.5%;
+}
+#resetbtn
+{
+	margin-left: 25%;
+    width: 20%;
+	font-size: smaller;
+    color: white;
+    background: #5c848e;
+    border: none;
+    padding: 1.5%;
+}
+#search
+{
+	text-align: center;
+    margin-left: -75%;
+    margin-top: 4%;
+	
+}
+#myInput
+{
+	padding: 0.5%;
+    font-size: large;
+	width:51%;
+	border: 2px double white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 91%;
+	margin-bottom: 1%;
+	margin-left: 4.5%;
+    margin-right: 4.5%;
+	
+}
+#table
+{
+padding-bottom:1%;
+}
+td, th {
+    border: 5px double white;
+    text-align: left;
+    padding: 8px;
+}
+th
+{
+	color: #2c8c45;
+}
+td
+{
+	color: #408b8c;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+#submitbtn:active {
+	background: #258a5b;
+}
+#resetbtn:active
+{
+	background: #33535a;
+}

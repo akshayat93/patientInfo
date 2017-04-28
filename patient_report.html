@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Patient Information</title>
+		<link rel="stylesheet" href="style.css"/>
+		<script src="jquery-3.1.1.min.js"></script>
+	</head>
+	
+	<body>
+	<div>
+		<div id="header" >
+			<h>Patient Information</h>			
+		</div>
+		<div id="auth">
+				<span id="admin" >Admin</span>
+				<span>|</span>
+				<span id="user" >User</span>
+		</div>
+		<div id="container">
+			<div id="input_box">
+				<form  id="pform">
+				  <div class="form"><label>First name*:</label> <input type="text" placeholder="First name" id="fname" name="fname"></div>
+				  <div class="form"><label>Last name*:</label> <input type="text" id="lname" placeholder="Last name" name="lname"></div>
+				  <div class="form"><label>Date Of birth*:</label> <input type="date" id="dob"  name="dob"></div>
+				   <div class="form"><label>Age:</label><input type="number" id="age"  disabled></div>
+				  <div class="form"><label>Gender*:</label>	<select id="gender" name="gender">
+																<option value="male">Male</option>
+																<option value="female">Female</option>
+																<option value="other">Other</option>
+															</select></div>
+				  <div class="form"><label>Contact no*:</label> <input type="number" id="contact" placeholder="Mobile no" name="contact"></div>
+				  <div class="form"><label>Description:</label> <textarea name="description" id="detail" placeholder="Additional details" rows="5" cols="50" maxlength="50"></textarea></div><br>
+				  <input id="resetbtn" type="reset">
+				  <input id="submitbtn" type="submit" value="Submit">
+				</form>
+				<span>&nbsp *fields are compulsory</span>
+			</div>
+			<div id="table">
+			<div id="search"><input type="text" id="myInput"  placeholder="Search Patients" ></div>
+				<table id ="tableid">
+				<tr>
+					<th width="5%">Serial No.</th>
+					<th width="10%">First Name</th>
+					<th width="10%">Last Name</th>
+					<th width="5%">Age</th>
+					<th width="15%">Date Of Birth</th>
+					<th width="15%">Contact No</th>
+					<th width="40%">Description</th>
+				</tr>						
+				</table>
+			</div>
+		</div>
+	</div>
+		
+	</body>
+<script src="script.js" ></script>	
+</script>
+</html>
