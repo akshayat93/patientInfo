@@ -4,7 +4,7 @@ body
 	position:relative;
 	background: #ebebeb;
 	margin: 0;
-	font-family: monospace;
+	font-family: serif;
 }
 #admin, #user 
 {
@@ -17,18 +17,19 @@ body
     padding: 1%;
 	color: white;
     height: 3rem;
-	min-width:400px;
+	
 	font-size:35px;
 	font-family: Arial, Helvetica, sans-serif;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #b0e6e1;
+	min-width:348px;
 }
 
 #auth
 {
-	float: right;
-	font-size: large;
-	margin-right:1%;
+	
+    font-size: large;
+    margin-left: 2%;
 }
 a:link
 {
@@ -42,13 +43,13 @@ a:hover
 }
 #container
 {
-	margin-top: 4%;
+	margin-top: 3%;
 	margin-bottom:2%;
 }
 #input_box
 {
 	max-width: 600px;
-	min-width: 400px;
+	min-width: 354px;
     background: white;
     margin-left: auto;
     margin-right: auto;
@@ -71,8 +72,8 @@ input
 	margin-right: 1%;
     padding: 1%;
     margin-bottom: 2%;
-	width:50%;
-	margin-left:44%;
+	width:44%;
+	margin-left:51%;
 	
 }
 label
@@ -85,15 +86,15 @@ label
 select
 {
 	padding:0.5%;
-	margin-left:44%;
+	margin-left:51%;
 	margin-bottom:2%;
-	width:52.5%;
+	width:46.5%;
 }
 textarea 
 {
 	resize: none;
-	margin-left: 44%;
-    width: 51.5%;
+	margin-left: 51%;
+    width: 45.5%;
 }
 #submitbtn
 {
@@ -130,6 +131,8 @@ textarea
     font-size: large;
 	width:51%;
 	border: 2px double white;
+	min-width: 333px;
+	margin-left: 44%;
 }
 
 table {
@@ -139,11 +142,12 @@ table {
 	margin-bottom: 1%;
 	margin-left: 4.5%;
     margin-right: 4.5%;
-	
+	 table-layout: fixed;
+    word-wrap: break-word;
 }
 #table
 {
-padding-bottom:1%;
+	padding-bottom:1%;
 }
 td, th {
     border: 5px double white;
@@ -167,4 +171,8 @@ tr:nth-child(even) {
 #resetbtn:active
 {
 	background: #33535a;
+}
+#tableid
+{
+	min-width:336px;
 }
